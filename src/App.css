@@ -9,14 +9,21 @@
 }
 
 .header {
+  position: relative;
   color: white;
   height: 90px;
   width: 100%;
   background-color: navy;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0 30px;
+}
+
+.app-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header > a {
